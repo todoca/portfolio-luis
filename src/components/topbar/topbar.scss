@@ -1,0 +1,88 @@
+@import "../../global.scss";
+
+.topbar {
+  background-color: transparent;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease-in-out !important;
+
+  .wrapper {
+    height: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      .navbar-brand {
+        .logo {
+          width: 6rem;
+          display: block;
+        }
+      }
+    }
+    .center {
+      display: flex;
+      align-items: center;
+
+      a {
+        color: $mainColor;
+        transition: all 2s ease-in-out !important;
+        .icon {
+          font-size: 20px;
+          vertical-align: middle;
+          margin: 0px 6px 0px 16px;
+          cursor: pointer;
+        }
+        :hover {
+          color: $javaColor;
+        }
+      }
+    }
+    .right {
+      .hamburguer {
+        width: 32px;
+        height: 26px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        
+
+        span {
+          width: 100%;
+          height: 3px;
+          background-color: $mainColor;
+          transform-origin: left;
+          transition: all 2s ease;
+        }
+      }
+    }
+  }
+
+  &.active {
+    background-color: $mainColor;
+    .icon {
+      color: $netColor !important;
+    }
+
+    .hamburguer {
+      span {
+        &:first-child {
+          background-color: $netColor;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          background-color: $netColor;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
