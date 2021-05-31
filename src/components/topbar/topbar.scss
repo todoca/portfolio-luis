@@ -30,14 +30,14 @@
 
       a {
         color: $mainColor;
-        transition: all 2s ease-in-out !important;
+        transition: all 1s ease-in-out !important;
         .icon {
           font-size: 20px;
           vertical-align: middle;
           margin: 0px 6px 0px 16px;
           cursor: pointer;
         }
-        :hover {
+        &:hover {
           color: $javaColor;
         }
       }
