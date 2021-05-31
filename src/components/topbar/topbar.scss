@@ -41,6 +41,9 @@
           color: $javaColor;
         }
       }
+      @include mobile{
+       display: none;         
+      }
     }
     .right {
       .hamburguer {

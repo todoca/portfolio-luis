@@ -3,3 +3,11 @@ $javaColor: #f4dc1c;
 $netColor:  #512bd4;
 $darkColor: rgba(255, 255, 255, 0);
 $orangeColor: #f9ab00;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width:#{$width}){
+        @content
+    }
+}

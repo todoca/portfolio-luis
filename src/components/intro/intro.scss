@@ -4,6 +4,11 @@
   display: flex;
   background-color: $mainColor;
 
+  @include mobile{
+      flex-direction: column;
+      align-items: center;
+  }
+
   .left {
     flex: 0.5;
     position: relative;
@@ -17,9 +22,18 @@
         flex-direction: column;
         justify-content: center;
 
+        @include mobile{
+         padding: 0;
+         align-items: center;       
+        }
         h1{
             font-size: 70px;
             margin: 10px 0;
+
+            @include mobile{
+             font-size: 20px;
+             margin: 0;   
+            }
         }
         h2{
             font-size: 35px;
@@ -40,6 +54,9 @@
                 100%{
                     opacity: 0;
                 }
+            }
+            @include mobile{
+             font-size: 20px;   
             }
 
         }
@@ -73,8 +90,17 @@
       align-items: flex-end;
       justify-content: center;
       float: left;
+
+      @include mobile{
+          align-items: flex-start;
+      }
+
       img {
         height: 90%;
+
+        @include mobile {
+            height: 50%;
+        }
       }
     }
   }
