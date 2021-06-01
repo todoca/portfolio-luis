@@ -1,3 +1,30 @@
+@import '../../global.scss';
+
 .about{
-    background-color: lightblue;
+    background-color: $netColor;
+    color: $mainColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left{
+        height: 80%;
+        width: 100%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 20px;
+        h2{
+            font-size: 1vw;
+
+        }
+    }
+    .right{
+        background-color: red;
+
+        flex:1
+    }
+
+   
 }

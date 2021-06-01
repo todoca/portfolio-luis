@@ -27,22 +27,8 @@
     .center {
       display: flex;
       align-items: center;
-
-      a {
-        color: $mainColor;
-        transition: all 1s ease-in-out !important;
-        .icon {
-          font-size: 20px;
-          vertical-align: middle;
-          margin: 0px 6px 0px 16px;
-          cursor: pointer;
-        }
-        &:hover {
-          color: $javaColor;
-        }
-      }
-      @include mobile{
-       display: none;         
+      @include mobile {
+        display: none !important;
       }
     }
     .right {
@@ -53,7 +39,6 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        
 
         span {
           width: 100%;

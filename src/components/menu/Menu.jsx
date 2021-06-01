@@ -1,3 +1,4 @@
+import SocialMedia from "../socialMedia/SocialMedia";
 import "./menu.scss";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
@@ -26,6 +27,8 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <SocialMedia className="social"/>
+      <h3>© Luis Alejandro Marcano 2021</h3>
     </div>
   );
 }

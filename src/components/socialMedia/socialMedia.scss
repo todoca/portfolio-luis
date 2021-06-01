@@ -1,0 +1,28 @@
+@import "../../global.scss";
+
+.socialmedia {
+  display: flex;
+  align-items: center;
+
+  a {
+    color: $mainColor;
+    transition: all 1s ease-in-out !important;
+    .icon {
+      color: inherit;
+      font-size: 22px;
+      vertical-align: middle;
+      margin: 0px 6px 0px 16px;
+      cursor: pointer;
+    }
+    &:hover {
+      color: $javaColor;
+    }
+  }
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}
