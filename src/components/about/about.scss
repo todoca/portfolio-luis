@@ -1,30 +1,104 @@
-@import '../../global.scss';
+@import "../../global.scss";
 
-.about{
-    background-color: $netColor;
-    color: $mainColor;
+.about {
+  background-color: $netColor;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mobile {
+    display: block;
+  }
+  .left {
+    height: 100%;
+    width: 100%;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    .left{
-        height: 80%;
-        width: 100%;
+    flex-direction: column;
+    background-color: $javaColor;
+    @include mobile {
+    }
+
+    h2 {
+      font-size: 5vh;
+    }
+    .lottieabout {
+      width: 50%;
+      height: 50%;
+      overflow: hidden;
+      @include mobile {
+        height: auto;
+      }
+    }
+    h1 {
+      width: 90%;
+      font-size: 3.5vh;
+      text-transform: uppercase;
+      @include mobile {
+        font-size: 3vh;
+      }
+    }
+    h3 {
+      width: 90%;
+      padding-top: 10px;
+      font-size: 2.5vh;
+      font-weight: 400;
+      @include mobile {
+        font-size: 2.3vh;
+      }
+    }
+  }
+  .right {
+    color: $mainColor;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+
+    @include mobile {
+    }
+
+    .top {
+      width: 80%;
+      height: 20%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      @include mobile {
+        height: 16%;
+      }
+      .lottieabout {
+        width: 100px;
         flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        padding: 20px;
-        h2{
-            font-size: 1vw;
-
+      }
+      h1 {
+        flex: 1;
+        font-size: 5vh;
+        @include mobile {
+          font-size: 3vh;
         }
+      }
     }
-    .right{
-        background-color: red;
+    .center {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      @include mobile {
+        width: 100%;
+      margin-bottom: 10px;
 
-        flex:1
+      }
+      p {
+        width: 90%;
+        font-size: 1.2vw;
+        text-align: justify;
+        @include mobile {
+          font-size: 3vw;
+        }
+      }
     }
-
-   
+  }
 }
