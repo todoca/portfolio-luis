@@ -6,7 +6,7 @@
 }
 
 .progress {
-  background-color: rgb(62, 122, 235);
+  background-color: $netColor;
   height: 10px;
   border-radius: 1rem;
   transition: 1s ease;

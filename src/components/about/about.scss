@@ -10,43 +10,52 @@
     display: block;
   }
   .left {
-    height: 100%;
-    width: 100%;
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background-color: $javaColor;
-    @include mobile {
-    }
+    height: 100%;
 
-    h2 {
-      font-size: 5vh;
-    }
-    .lottieabout {
-      width: 50%;
-      height: 50%;
-      overflow: hidden;
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
       @include mobile {
-        height: auto;
+        padding: 10px;
       }
-    }
-    h1 {
-      width: 90%;
-      font-size: 3.5vh;
-      text-transform: uppercase;
-      @include mobile {
-        font-size: 3vh;
+      h2 {
+        font-size: 5vh;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
       }
-    }
-    h3 {
-      width: 90%;
-      padding-top: 10px;
-      font-size: 2.5vh;
-      font-weight: 400;
-      @include mobile {
-        font-size: 2.3vh;
+
+      .lottieabout {
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+        @include mobile {
+          height: 250px;
+          width: 250px;
+        }
+      }
+
+      h1 {
+        font-size: 3.5vh;
+        text-transform: uppercase;
+
+        @include mobile {
+          font-size: 3vh;
+        }
+      }
+
+      h3 {
+        padding-top: 10px;
+        font-size: 2.5vh;
+        font-weight: 400;
+        @include mobile {
+          font-size: 2.3vh;
+        }
       }
     }
   }
@@ -55,50 +64,43 @@
     flex: 1;
     width: 100%;
     height: 100%;
-
     @include mobile {
+      width: 100%;
     }
 
     .top {
-      width: 80%;
-      height: 20%;
-      overflow: hidden;
+      width: 100%;
+      padding: 10px;
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center;
+      overflow: hidden;
       @include mobile {
-        height: 16%;
+        height: 50px;
+        width: 85%;
       }
       .lottieabout {
-        width: 100px;
-        flex: 1;
+        #lottie {
+          width: 100px;
+        }
       }
       h1 {
-        flex: 1;
         font-size: 5vh;
-        @include mobile {
-          font-size: 3vh;
-        }
+        text-align: center;
       }
     }
     .center {
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
-      @include mobile {
-        width: 100%;
-      margin-bottom: 10px;
-
-      }
+      
       p {
-        width: 90%;
-        font-size: 1.2vw;
+        font-size: 2.3vh;
         text-align: justify;
+        padding: 0 20px;
         @include mobile {
-          font-size: 3vw;
+          font-size: 1.6vh;
         }
       }
+
     }
   }
 }
