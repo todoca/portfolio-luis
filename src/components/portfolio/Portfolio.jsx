@@ -13,10 +13,10 @@ export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
   const list = [
-    {
-      id: "featured",
-      title: "Featured",
-    },
+     {
+       id: "featured",
+       title: "Featured",
+     },
     {
       id: "web",
       title: "Web App",
@@ -26,13 +26,13 @@ export default function Portfolio() {
       title: "Mobile App",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "desktop",
+      title: "Desktop App",
     },
-    {
-      id: "content",
-      title: "Content",
-    },
+    // {
+    //   id: "content",
+    //   title: "Content",
+    // },
   ];
 
   useEffect(() => {
@@ -46,12 +46,12 @@ export default function Portfolio() {
       case "mobile":
         setData(mobilePortfolio);
         break;
-      case "design":
+      case "desktop":
         setData(designPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
-        break;
+      // case "content":
+      //   setData(contentPortfolio);
+      //   break;
     }
   }, [selected]);
   return (
