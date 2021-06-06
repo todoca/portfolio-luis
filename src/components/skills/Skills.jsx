@@ -85,7 +85,7 @@ export default function Skills() {
             <h1>UI/UX Design, Planners & Tools Apps</h1>
             <div className="tools">
               <ul className="first">
-                <li className="title">//Design</li>
+                <li className="title">{"//"}Design</li>
                 <li> - Illustrator</li>
                 <li> - PhotoShop</li>
                 <li> - Lightroom</li>
@@ -95,7 +95,7 @@ export default function Skills() {
                 <li> - Figma</li>
               </ul>
               <ul className="second">
-                <li className="title">/*Planner & Cloud</li>
+                <li className="title">{"/*"}Planner & Cloud</li>
                 <li> - ClickUp</li>
                 <li> - Google Keep</li>
                 <li> - GitHub</li>

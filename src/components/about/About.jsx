@@ -1,5 +1,5 @@
 import "./about.scss";
-import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function About() {
   return (
