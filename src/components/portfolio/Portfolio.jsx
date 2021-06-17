@@ -5,7 +5,7 @@ import {
   featuredPortfolio,
   webPortfolio,
   mobilePortfolio,
-  designPortfolio,
+  desktopPortfolio,
   //contentPortfolio,
 } from "../../data";
 
@@ -47,7 +47,7 @@ export default function Portfolio() {
         setData(mobilePortfolio);
         break;
       case "desktop":
-        setData(designPortfolio);
+        setData(desktopPortfolio);
         break;
         default:
           

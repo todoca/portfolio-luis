@@ -88,6 +88,10 @@
       h1 {
         font-size: 5vh;
         text-align: center;
+        @include mobile {
+          width: 90%;
+          font-size: 4vh;
+        }
       }
     }
     .center {

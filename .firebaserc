@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "alejandro-marcano"
+  },
+  "targets": {
+    "alejandro-marcano": {
+      "hosting": {}
+    }
+  }
+}

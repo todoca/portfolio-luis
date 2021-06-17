@@ -149,6 +149,7 @@ export default function Skills() {
                     <li>.NET CORE</li>
                     <li>Azure API Managment</li>
                     <li>Google Cloud API Services</li>
+                    <li>Google & Azure Functions</li>
                   </ul>
                 </div>
               </div>

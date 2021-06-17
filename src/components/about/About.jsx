@@ -51,14 +51,14 @@ export default function About() {
             empresa de desarrollo de software, Todoca, con la intención de
             brindar Servicios Tecnológicos y Soluciones Integrales a personas
             que se encuentran en constante innovación y evolución. Finalmente,
-            en 2019, decidimos dedicarme completamente a al area programación,
+            en 2019, decidí dedicarme completamente al area de programación,
             diseño y desarrollo, con el propósito de crear aplicaciones
-            multiplataformas que mejoren la productividad y sirvamos de ayuda a
-            otros con la tecnología.
+            multiplataformas que mejoren la productividad y eficiencia de
+            acuerdo a los requerimientos de mis clientes.
           </p>
           <br />
           <p>
-            Actualmente dirijo Todoca, trabajamos remotamente a diferentes
+            Actualmente dirijo Todoca, trabajo remotamente a diferentes
             lugares del mundo. Si estás buscando eficiencia, profesionalidad y
             dedicación, ¡cuenta conmigo!
           </p>
