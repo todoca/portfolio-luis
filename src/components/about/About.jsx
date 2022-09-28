@@ -15,9 +15,9 @@ export default function About() {
             world with love.
           </h1>
           <h3>
-            Mi nombre es Luis Alejandro Marcano, venezolano, ingeniero
-            electrónico, freelance, empresario, amante de la ciencia y
-            tecnología.
+            My name is Alejandro Marcano, Venezuelan, Engineer
+             electronic, freelance, manager, lover of science and
+             technology.
           </h3>
         </div>
       </div>
@@ -31,36 +31,19 @@ export default function About() {
         </div>
         <div className="center">
           <p>
-            Mi primer encuentro fue con un Sistema Operativo MS-DOS y un juego
-            llamado California Games, a partir de allí, entendí las infinitas
-            posibilidades de crear algo maravilloso.
+          My first encounter was with an MS-DOS Operating System and a game called California Games, from there, I understood the infinite possibilities of creating something wonderful.
           </p>
           <br />
           <p>
-            En la Universidad, interactuamos con lenguajes como C++ y
-            Ensamblador para los Microcontroladores, permitiendo un sublime
-            encuentro con las infinitas líneas de código que se ocultan
-            sutilmente detras de lo tangible, cumpliendo funciones y tareas
-            imperceptibles para la mayoría de las personas, fue como magia.
+          At the University, we interacted with languages such as C++ and Assembler for Microcontrollers, allowing a sublime encounter with the infinite lines of code that are subtly hidden behind the tangible, fulfilling functions and tasks imperceptible to most people, it was like magic.
           </p>
           <br />
           <p>
-            Luego de graduarme de ingeniero en el 2006, empecé trabajando en
-            grandes empresas del sector de Telecomunicaciones y desarrollo de
-            soluciones IT durante 6 años, En el 2012 decidí crear mi propia
-            empresa de desarrollo de software, Todoca, con la intención de
-            brindar Servicios Tecnológicos y Soluciones Integrales a personas
-            que se encuentran en constante innovación y evolución. Finalmente,
-            en 2019, decidí dedicarme completamente al area de programación,
-            diseño y desarrollo, con el propósito de crear aplicaciones
-            multiplataformas que mejoren la productividad y eficiencia de
-            acuerdo a los requerimientos de mis clientes.
+          After graduating as an engineer in 2006, I started working in large companies in the Telecommunications sector and developing IT solutions for 6 years. In 2012 I decided to create my own software development company, Todoca, with the intention of providing Technological Services and Comprehensive solutions for people who are in constant innovation and evolution. Finally, in 2019, I decided to dedicate myself completely to the programming, design and development area, with the purpose of creating multiplatform applications that improve productivity and efficiency according to the requirements of my clients.
           </p>
           <br />
           <p>
-            Actualmente dirijo Todoca, trabajo remotamente a diferentes
-            lugares del mundo. Si estás buscando eficiencia, profesionalidad y
-            dedicación, ¡cuenta conmigo!
+          Currently I run Todoca, I work remotely to different places in the world. If you are looking for efficiency, professionalism and dedication, count on me!
           </p>
           <div className="bottom"></div>
         </div>
