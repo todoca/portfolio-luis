@@ -6,7 +6,7 @@ export default function ProgressBar({ width, percent }) {
 
   useEffect(() => {
     setValue(percent * width);
-  });
+  }, [percent, width]);
 
   return (
     <div className="progressbar" style={{ width: width }}>

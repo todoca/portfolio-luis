@@ -1,16 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../portfolio.api"
-		}
-	],
-	"settings": {
-		"emmet.includeLanguages": {
-			"javascript": "javascriptreact"
-		},
-		"debug.internalConsoleOptions": "neverOpen"
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "debug.internalConsoleOptions": "neverOpen"
+  }
 }

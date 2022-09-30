@@ -17,16 +17,16 @@ export default function Skills() {
               <div className="item">
                 <div className="labelbar">
                   <h4>Website & Web Applications</h4>
-                  <span>60%</span>
+                  <span>70%</span>
                 </div>
-                <ProgressBar width={300} percent={0.6} />
+                <ProgressBar width={300} percent={0.7} />
               </div>
               <div className="item">
                 <div className="labelbar">
                   <h4>Mobile & Desktop Apps</h4>
-                  <span>70%</span>
+                  <span>80%</span>
                 </div>
-                <ProgressBar width={300} percent={0.7} />
+                <ProgressBar width={300} percent={0.8} />
               </div>
               <div className="item">
                 <div className="labelbar">
@@ -38,9 +38,9 @@ export default function Skills() {
               <div className="item">
                 <div className="labelbar">
                   <h4>Backend & Tests</h4>
-                  <span>50%</span>
+                  <span>70%</span>
                 </div>
-                <ProgressBar width={300} percent={0.5} />
+                <ProgressBar width={300} percent={0.7} />
               </div>
             </div>
           </div>
@@ -58,22 +58,24 @@ export default function Skills() {
                 <div className="first item">
                   <h4>&lt;Web&gt;</h4>
                   <ul>
-                    <li>- React</li>
-                    <li>- Blazor MAUI</li>
-                    <li>- MVC</li>
+                    <li>- React, TypeScript, TailWind</li>
+                    <li>- Blazor, MAUI, ASP .Net, MVC </li>
+                    <li>- Flutter</li>
                     <li>- Wordpress (Divi & Elementor)</li>
-                    <li>- HTML & CSS</li>
+                    <li>- WooCommerce & Shopify</li>
+                    <li>- HTML5 & CSS3</li>
                   </ul>
                 </div>
                 <br />
                 <div className="second item">
                   <h4>Mobile & Desktop:</h4>
                   <ul>
+                    <li>- Windows Forms, Visual Basic</li>
+                    <li>- Xamarin, MAUI</li>
+                    <li>- Xcode & Android Studio</li>
                     <li>- React Native</li>
-                    <li>- Xamarin</li>
-                    <li>- Xcode & Kotlin</li>
+                    <li>- Flutter</li>
                     <li>- Electron</li>
-                    <li>- Windows Forms</li>
                   </ul>
                 </div>
               </div>
@@ -85,10 +87,10 @@ export default function Skills() {
             <h1>UI/UX Design, Planners & Tools Apps</h1>
             <div className="tools">
               <ul className="first">
-                <li className="title">{"//"}Design</li>
+                <li className="title">{"//"}Design UI/UX</li>
                 <li> - Illustrator</li>
                 <li> - PhotoShop</li>
-                <li> - Lightroom</li>
+                <li> - XD</li>
                 <li> - InkScape</li>
                 <li> - Sketch</li>
                 <li> - draw.io</li>
@@ -112,7 +114,7 @@ export default function Skills() {
                 <li> - NotePad++</li>
                 <li> - Xcode</li>
                 <li> - Android Studio</li>
-                <li> - Remote Desktop VPN</li>
+                <li> - Remote Desktop, VPN</li>
               </ul>
             </div>
           </div>
@@ -123,7 +125,7 @@ export default function Skills() {
               </h1>
               <div className="tools">
                 <div className="first">
-                  <h4>Database Sql & NoSql:</h4>
+                  <h4>Databases:</h4>
                   <ul>
                     <li>MS SQL</li>
                     <li>MySql</li>
@@ -131,25 +133,32 @@ export default function Skills() {
                     <li>Firebase</li>
                     <li>MongoDb</li>
                     <li>CosmoDb</li>
+                    <li></li>
                   </ul>
                 </div>
                 <div className="second">
-                  <h4>Cloud Provider:</h4>
+                  <h4>Cloud:</h4>
                   <ul>
                     <li>Microsoft Azure</li>
                     <li>Google Firebase</li>
                     <li>MongoDB Atlas</li>
                     <li>Hostings</li>
+                    <li>AWS</li>
+                    <li>Sanity, Cloudinary</li>
+                    <li></li>
+
                   </ul>
                 </div>
                 <div className="third">
-                  <h4>API (RESTFul & GraphQL):</h4>
+                  <h4>API:</h4>
                   <ul>
-                    <li>Node.js</li>
-                    <li>.NET CORE</li>
+                    <li>Node.js, Express.js</li>
+                    <li>.NET 6</li>
                     <li>Azure API Managment</li>
                     <li>Google Cloud API Services</li>
                     <li>Google & Azure Functions</li>
+                    <li>MultiTenants SaaS</li>
+                    <li></li>
                   </ul>
                 </div>
               </div>

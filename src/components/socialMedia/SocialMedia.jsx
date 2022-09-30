@@ -17,7 +17,7 @@ export default function SocialMedia() {
                   <a href="tel:+584265942155">
             <PhoneInTalk className="icon" />
           </a>
-          <a href="mailto:alej969@gmail.com">
+          <a href="mailto:devmarcano@gmail.com">
             <Mail className="icon" />
           </a>
           <a href="https://www.github.com/todoca/">
@@ -29,7 +29,7 @@ export default function SocialMedia() {
           <a href="https://www.youtube.com/channel/UCd97tvT5PyPdRKrdV1dfjxQ">
             <YouTube className="icon" />
           </a>
-          <a href="./">
+          <a href="/assets/CV-Luis-Marcano-Full-Stack-2022-English.pdf">
             <GetApp className="icon" />
           </a>
           <a href="https://www.linkedin.com/in/alejandromarcano/">

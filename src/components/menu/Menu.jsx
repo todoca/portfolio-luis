@@ -5,7 +5,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
   return (
     <div className={"menu " + (menuOpen && "active")}>
       <ul>
-        <li onClick={() =>setMenuOpen(false)}>
+        <li onClick={() => setMenuOpen(false)}>
           <a href="#intro">Home</a>
         </li>
         <li>
@@ -27,8 +27,8 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <SocialMedia className="social"/>
-      <h3>© Luis Alejandro Marcano 2021</h3>
+      <SocialMedia className="social" />
+      <h3>© Luis Alejandro Marcano 2022</h3>
     </div>
   );
 }

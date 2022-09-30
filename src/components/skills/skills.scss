@@ -9,6 +9,7 @@
 
     @include mobile {
       display: block;
+      overflow: hidden;
     }
     .left,
     .right {
@@ -20,15 +21,16 @@
       justify-content: center;
       @include mobile {
         display: block;
+      overflow: hidden;
+
       }
       .top,
       .bottom {
         width: 100%;
         flex: 1;
         @include mobile {
-          flex: none;
-          height: 100vh;
-          flex-direction: column;
+          overflow: hidden;
+        display: block;
         }
       }
     }

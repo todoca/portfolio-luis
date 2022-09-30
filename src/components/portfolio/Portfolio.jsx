@@ -5,8 +5,6 @@ import {
   featuredPortfolio,
   webPortfolio,
   mobilePortfolio,
-  desktopPortfolio,
-  //contentPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -24,18 +22,11 @@ export default function Portfolio() {
     {
       id: "mobile",
       title: "Mobile App",
-    },
-    {
-      id: "desktop",
-      title: "Desktop App",
-    },
-    // {
-    //   id: "content",
-    //   title: "Content",
-    // },
+    }
   ];
 
   useEffect(() => {
+    // eslint-disable-next-line default-case
     switch (selected) {
       case "featured":
         setData(featuredPortfolio);
@@ -46,14 +37,6 @@ export default function Portfolio() {
       case "mobile":
         setData(mobilePortfolio);
         break;
-      case "desktop":
-        setData(desktopPortfolio);
-        break;
-        default:
-          
-      // case "content":
-      //   setData(contentPortfolio);
-      //   break;
     }
   }, [selected]);
   return (

@@ -12,21 +12,30 @@ export default function Testimonials() {
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      name: "Fernando Olivares",
+      title: "Co-Founder of MAMAZUCA, AND GESSIND",
+      img: "assets/fernando.jpg",
+      icon: "assets/instagram.svg",
+      desc: "trust is scarce these days, Luis Alejandro is an unconditional and efficient person, that is priceless.",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Luis Enrique Martinez",
+      title: "IT Manager CVG Networks",
       img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      desc: "works under pressure, great ability to solve problems and creativity",
     },
+    {
+      id: 4,
+      name: "Milervis Martinez",
+      title: "CEO of CompraDesdeVenezuelaPzo",
+      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      icon: "assets/youtube.png",
+      desc: "professional, responsible, dedicated and patient",
+    },
+ 
   ];
   return (
     <div className="testimonials" id="testimonials">
